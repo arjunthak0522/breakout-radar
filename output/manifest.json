@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-09-28T19:03:12.264367+00:00",
+  "finished_utc": "2026-09-28T19:04:04.492682+00:00",
+  "universe_size": 318,
+  "stage1_snapshot_found": 318,
+  "stage2_selected": 139,
+  "stage2_completed": 138,
+  "leaderboard_rows": 40,
+  "historical_source": "Yahoo Finance chart API 6mo/1d",
+  "live_source": "Yahoo Finance chart API 1d/1m",
+  "stage1_source": "Nasdaq stock screener API",
+  "errors": {
+    "SKHY": "SKHY: only 56 daily rows"
+  }
+}
