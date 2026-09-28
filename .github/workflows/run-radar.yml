@@ -2,13 +2,13 @@ name: Run Breakout Radar
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths-ignore:
-      - "output/**"
 
 permissions:
   contents: write
+
+concurrency:
+  group: breakout-radar-live
+  cancel-in-progress: true
 
 jobs:
   scan:
@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,7 +37,7 @@ jobs:
           REQUEST_DELAY: "0.18"
         run: python scanner.py
 
-      - name: Commit latest outputs
+      - name: Commit latest outputs once
         run: |
           git config user.name "breakout-radar-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -44,5 +46,6 @@ jobs:
             echo "No output changes to commit."
           else
             git commit -m "Update live Breakout Radar output"
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
