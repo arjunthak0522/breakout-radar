@@ -17,7 +17,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - name: Check out repository
@@ -34,10 +34,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run live Breakout Radar
+      - name: Run full live Breakout Radar
         env:
-          STAGE2_COUNT: "139"
-          LEADERBOARD_COUNT: "40"
           REQUEST_DELAY: "0.18"
         run: python scanner.py
 
