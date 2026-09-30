@@ -1,0 +1,47 @@
+name: Backtest Breakout Radar
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "BACKTEST_TRIGGER"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: breakout-radar-backtest
+  cancel-in-progress: true
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run walk-forward backtest
+        env:
+          BACKTEST_START: "2023-01-01"
+          BACKTEST_COST_BPS: "10"
+          BACKTEST_DELAY: "0.18"
+        run: python backtest.py
+      - name: Commit backtest outputs once
+        run: |
+          git config user.name "breakout-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add output/backtest_*.csv output/backtest_manifest.json
+          if git diff --cached --quiet; then
+            echo "No backtest output changes."
+          else
+            git commit -m "Update Breakout Radar backtest results"
+            git pull --rebase origin main
+            git push origin main
+          fi
