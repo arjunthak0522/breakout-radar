@@ -1,18 +1,19 @@
 {
-  "started_utc": "2026-09-29T22:12:17.347791+00:00",
-  "finished_utc": "2026-09-29T22:14:50.600366+00:00",
+  "started_utc": "2026-09-30T12:00:05.489277+00:00",
+  "finished_utc": "2026-09-30T12:02:42.155539+00:00",
   "universe_size": 318,
   "stage1_snapshot_found": 318,
   "historical_evaluation_attempted": 318,
-  "historical_evaluation_completed": 316,
-  "live_evaluation_attempted": 316,
-  "leaderboard_rows": 316,
+  "historical_evaluation_completed": 315,
+  "live_evaluation_attempted": 315,
+  "leaderboard_rows": 315,
   "actionable_rows": 19,
   "historical_source": "Yahoo Finance chart API 6mo/1d",
   "live_source": "Yahoo Finance chart API 1d/1m",
   "stage1_source": "Nasdaq stock screener API",
   "errors": {
     "BSP": "BSP: only 63 daily rows",
+    "FIG": "FIG: only 1 daily rows",
     "SKHY": "SKHY: only 57 daily rows"
   }
 }

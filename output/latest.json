@@ -1,19 +1,20 @@
 {
   "manifest": {
-    "started_utc": "2026-09-29T22:12:17.347791+00:00",
-    "finished_utc": "2026-09-29T22:14:50.600366+00:00",
+    "started_utc": "2026-09-30T12:00:05.489277+00:00",
+    "finished_utc": "2026-09-30T12:02:42.155539+00:00",
     "universe_size": 318,
     "stage1_snapshot_found": 318,
     "historical_evaluation_attempted": 318,
-    "historical_evaluation_completed": 316,
-    "live_evaluation_attempted": 316,
-    "leaderboard_rows": 316,
+    "historical_evaluation_completed": 315,
+    "live_evaluation_attempted": 315,
+    "leaderboard_rows": 315,
     "actionable_rows": 19,
     "historical_source": "Yahoo Finance chart API 6mo/1d",
     "live_source": "Yahoo Finance chart API 1d/1m",
     "stage1_source": "Nasdaq stock screener API",
     "errors": {
       "BSP": "BSP: only 63 daily rows",
+      "FIG": "FIG: only 1 daily rows",
       "SKHY": "SKHY: only 57 daily rows"
     }
   },
@@ -41,7 +42,7 @@
       "Trade Quality": 71.5,
       "Trigger": 367.42999267578125,
       "% From Trigger": -4.128673002354,
-      "Breakout R/R": 1.1818700116101084,
+      "Breakout R/R": 1.181869972487027,
       "Action": "WAIT"
     },
     {
@@ -67,7 +68,7 @@
       "Trade Quality": 71.5,
       "Trigger": 304.75,
       "% From Trigger": -4.584085716391506,
-      "Breakout R/R": 1.1043831549069167,
+      "Breakout R/R": 1.104379669693302,
       "Action": "WAIT"
     },
     {
@@ -132,7 +133,7 @@
       "Trade Quality": 84.0,
       "Trigger": 30.739999771118164,
       "% From Trigger": -4.847104041028971,
-      "Breakout R/R": 2.0718957386761567,
+      "Breakout R/R": 2.0718414585687497,
       "Action": "WAIT"
     },
     {
@@ -145,20 +146,20 @@
       "Trade Quality": 78.0,
       "Trigger": 234.75999450683594,
       "% From Trigger": -3.2160453099469244,
-      "Breakout R/R": 1.6615597829785411,
+      "Breakout R/R": 1.661570810493816,
       "Action": "WAIT FOR SUPPORT"
     },
     {
       "Rank": 11,
       "Stock": "DSGX",
       "Live": 79.46499633789062,
-      "Support": 78.31424942016602,
+      "Support": 78.31449966430664,
       "Support R/R": "5R+",
       "Setup": 85,
       "Trade Quality": 85.5,
       "Trigger": 82.6500015258789,
       "% From Trigger": -3.853605721944253,
-      "Breakout R/R": 1.6659188637377658,
+      "Breakout R/R": 1.6660006697379535,
       "Action": "WAIT FOR SUPPORT"
     },
     {
@@ -262,7 +263,7 @@
       "Trade Quality": 59.5,
       "Trigger": 104.58000183105469,
       "% From Trigger": -1.9889097290463398,
-      "Breakout R/R": 1.2014786412971699,
+      "Breakout R/R": 1.2014573259023937,
       "Action": "WAIT"
     },
     {
@@ -275,7 +276,7 @@
       "Trade Quality": 81.0,
       "Trigger": 65.6500015258789,
       "% From Trigger": -6.336633283659953,
-      "Breakout R/R": 1.404658274964895,
+      "Breakout R/R": 1.4046567538458212,
       "Action": "WAIT"
     },
     {
@@ -353,7 +354,7 @@
       "Trade Quality": 82.0,
       "Trigger": 263.8699951171875,
       "% From Trigger": -0.42824303775450545,
-      "Breakout R/R": 1.3538876063724916,
+      "Breakout R/R": 1.4078537519735865,
       "Action": "WAIT"
     },
     {
@@ -366,7 +367,7 @@
       "Trade Quality": 72.0,
       "Trigger": 96.66000366210938,
       "% From Trigger": -1.5001081343897327,
-      "Breakout R/R": 2.6093538279654513,
+      "Breakout R/R": 2.609362668622461,
       "Action": "WAIT"
     },
     {
@@ -379,7 +380,7 @@
       "Trade Quality": 59.5,
       "Trigger": 398.8800048828125,
       "% From Trigger": -2.624849852721778,
-      "Breakout R/R": 1.0927004247000056,
+      "Breakout R/R": 1.092622542250379,
       "Action": "WAIT"
     },
     {
@@ -392,7 +393,7 @@
       "Trade Quality": 58.0,
       "Trigger": 221.97999572753906,
       "% From Trigger": -4.230110627253925,
-      "Breakout R/R": 1.0616497013033712,
+      "Breakout R/R": 1.06164336736901,
       "Action": "WAIT FOR SUPPORT"
     },
     {
@@ -405,7 +406,7 @@
       "Trade Quality": 77.5,
       "Trigger": 214.88999938964844,
       "% From Trigger": -5.59821248707043,
-      "Breakout R/R": 1.5013745691312508,
+      "Breakout R/R": 1.5008477795680528,
       "Action": "WAIT"
     },
     {
@@ -444,7 +445,7 @@
       "Trade Quality": 83.5,
       "Trigger": 126.73999786376953,
       "% From Trigger": -8.300455121021976,
-      "Breakout R/R": 1.7515867738282893,
+      "Breakout R/R": 1.7515865214426456,
       "Action": "BUY SUPPORT"
     },
     {
@@ -483,7 +484,7 @@
       "Trade Quality": 81.0,
       "Trigger": 208.3300018310547,
       "% From Trigger": -8.788939373908445,
-      "Breakout R/R": 1.3270489809564399,
+      "Breakout R/R": 1.3270359900432556,
       "Action": "WAIT"
     },
     {
@@ -496,7 +497,7 @@
       "Trade Quality": 81.0,
       "Trigger": 171.19000244140625,
       "% From Trigger": -9.650098742252943,
-      "Breakout R/R": 1.3772215465335453,
+      "Breakout R/R": 1.3772132754395825,
       "Action": "WAIT"
     },
     {
@@ -527,6 +528,19 @@
     },
     {
       "Rank": 40,
+      "Stock": "SAP",
+      "Live": 210.85000610351562,
+      "Support": 211.3769989013672,
+      "Support R/R": "5R+",
+      "Setup": 76,
+      "Trade Quality": 76.0,
+      "Trigger": 223.27999877929688,
+      "% From Trigger": -5.566997825034825,
+      "Breakout R/R": 2.978100374495941,
+      "Action": "WAIT"
+    },
+    {
+      "Rank": 41,
       "Stock": "JOYY",
       "Live": 80.5999984741211,
       "Support": 77.54049949645996,
@@ -535,11 +549,11 @@
       "Trade Quality": 72.0,
       "Trigger": 81.26000213623047,
       "% From Trigger": -0.8122122135843624,
-      "Breakout R/R": 1.5385472109817093,
+      "Breakout R/R": 1.538566299733198,
       "Action": "WAIT"
     },
     {
-      "Rank": 41,
+      "Rank": 42,
       "Stock": "KT",
       "Live": 19.270000457763672,
       "Support": 19.607000160217286,
@@ -552,7 +566,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 42,
+      "Rank": 43,
       "Stock": "META",
       "Live": 738.7899780273438,
       "Support": 676.0619934082031,
@@ -565,7 +579,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 43,
+      "Rank": 44,
       "Stock": "AMD",
       "Live": 607.5700073242188,
       "Support": 542.061003112793,
@@ -578,7 +592,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 44,
+      "Rank": 45,
       "Stock": "TEAM",
       "Live": 175.9600067138672,
       "Support": 187.14100036621093,
@@ -591,7 +605,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 45,
+      "Rank": 46,
       "Stock": "QLYS",
       "Live": 178.35000610351562,
       "Support": 174.86250076293945,
@@ -604,7 +618,7 @@
       "Action": "WAIT FOR SUPPORT"
     },
     {
-      "Rank": 46,
+      "Rank": 47,
       "Stock": "ASX",
       "Live": 45.310001373291016,
       "Support": 40.66550064086914,
@@ -613,11 +627,11 @@
       "Trade Quality": 82.0,
       "Trigger": 45.2400016784668,
       "% From Trigger": 0.15472964683274082,
-      "Breakout R/R": 1.456345994060578,
+      "Breakout R/R": 1.4573160508780723,
       "Action": "BUY BREAKOUT"
     },
     {
-      "Rank": 47,
+      "Rank": 48,
       "Stock": "ESTC",
       "Live": 88.80000305175781,
       "Support": 88.4680004119873,
@@ -630,7 +644,7 @@
       "Action": "BUY SUPPORT"
     },
     {
-      "Rank": 48,
+      "Rank": 49,
       "Stock": "NTNX",
       "Live": 70.08999633789062,
       "Support": 68.19899940490723,
@@ -639,20 +653,7 @@
       "Trade Quality": 77.5,
       "Trigger": 74.41999816894531,
       "% From Trigger": -5.8183310099321535,
-      "Breakout R/R": 1.6420088307506506,
-      "Action": "WAIT"
-    },
-    {
-      "Rank": 49,
-      "Stock": "SAP",
-      "Live": 210.85000610351562,
-      "Support": 211.3769989013672,
-      "Support R/R": "5R+",
-      "Setup": 73,
-      "Trade Quality": 76.0,
-      "Trigger": 223.27999877929688,
-      "% From Trigger": -5.566997825034825,
-      "Breakout R/R": 2.978100374495941,
+      "Breakout R/R": 1.6419652709874661,
       "Action": "WAIT"
     },
     {
@@ -678,7 +679,7 @@
       "Trade Quality": 76.0,
       "Trigger": 296.239990234375,
       "% From Trigger": -5.96475273178897,
-      "Breakout R/R": 2.0695938528564044,
+      "Breakout R/R": 2.0695970052565085,
       "Action": "WAIT"
     },
     {
@@ -691,7 +692,7 @@
       "Trade Quality": 69.5,
       "Trigger": 233.94000244140625,
       "% From Trigger": -1.5858795738862175,
-      "Breakout R/R": 1.2841424018669252,
+      "Breakout R/R": 1.2841390584577925,
       "Action": "WAIT"
     },
     {
@@ -717,11 +718,24 @@
       "Trade Quality": 57.5,
       "Trigger": 385.3699951171875,
       "% From Trigger": -5.270259183623693,
-      "Breakout R/R": 1.1207413170011644,
+      "Breakout R/R": 1.1207361750972864,
       "Action": "WAIT"
     },
     {
       "Rank": 55,
+      "Stock": "SLAB",
+      "Live": 221.1699981689453,
+      "Support": 220.40050048828124,
+      "Support R/R": "5R+",
+      "Setup": 71,
+      "Trade Quality": 74.0,
+      "Trigger": 222.49000549316406,
+      "% From Trigger": -0.5932883687484569,
+      "Breakout R/R": 1.3624364301864065,
+      "Action": "BUY SUPPORT"
+    },
+    {
+      "Rank": 56,
       "Stock": "SHOP",
       "Live": 148.25999450683594,
       "Support": 138.8386001586914,
@@ -734,7 +748,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 56,
+      "Rank": 57,
       "Stock": "SNOW",
       "Live": 330.30999755859375,
       "Support": 332.0654998779297,
@@ -747,7 +761,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 57,
+      "Rank": 58,
       "Stock": "DOCS",
       "Live": 26.520000457763672,
       "Support": 25.329999923706055,
@@ -756,11 +770,11 @@
       "Trade Quality": 61.0,
       "Trigger": 40.0,
       "% From Trigger": -33.69999885559082,
-      "Breakout R/R": 0.6740449414276192,
+      "Breakout R/R": 0.6740409082081705,
       "Action": "WAIT"
     },
     {
-      "Rank": 58,
+      "Rank": 59,
       "Stock": "DOCU",
       "Live": 66.9800033569336,
       "Support": 67.61900062561035,
@@ -773,7 +787,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 59,
+      "Rank": 60,
       "Stock": "VOD",
       "Live": 16.329999923706055,
       "Support": 16.8960000038147,
@@ -782,11 +796,11 @@
       "Trade Quality": 70.0,
       "Trigger": 17.709999084472656,
       "% From Trigger": -7.792203456275293,
-      "Breakout R/R": 2.636769269750834,
+      "Breakout R/R": 2.6365369214034593,
       "Action": "WAIT"
     },
     {
-      "Rank": 60,
+      "Rank": 61,
       "Stock": "MU",
       "Live": 1065.0799560546875,
       "Support": 1005.516000366211,
@@ -795,11 +809,11 @@
       "Trade Quality": 91.5,
       "Trigger": 1108.719970703125,
       "% From Trigger": -3.936071848761058,
-      "Breakout R/R": 1.6246225629989648,
+      "Breakout R/R": 1.6246225319697747,
       "Action": "WAIT"
     },
     {
-      "Rank": 61,
+      "Rank": 62,
       "Stock": "WBD",
       "Live": 30.850000381469727,
       "Support": 29.08400011062622,
@@ -812,7 +826,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 62,
+      "Rank": 63,
       "Stock": "FFIV",
       "Live": 438.07000732421875,
       "Support": 421.4564971923828,
@@ -825,7 +839,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 63,
+      "Rank": 64,
       "Stock": "GSAT",
       "Live": 82.58999633789062,
       "Support": 82.24549942016601,
@@ -838,7 +852,7 @@
       "Action": "BUY SUPPORT"
     },
     {
-      "Rank": 64,
+      "Rank": 65,
       "Stock": "INFQ",
       "Live": 13.84000015258789,
       "Support": 13.384000015258788,
@@ -847,11 +861,11 @@
       "Trade Quality": 83.5,
       "Trigger": 15.0600004196167,
       "% From Trigger": -8.100931162257297,
-      "Breakout R/R": 1.6636516136395363,
+      "Breakout R/R": 1.6634025638554535,
       "Action": "WAIT"
     },
     {
-      "Rank": 65,
+      "Rank": 66,
       "Stock": "FRSH",
       "Live": 12.579999923706055,
       "Support": 12.586499977111817,
@@ -864,7 +878,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 66,
+      "Rank": 67,
       "Stock": "SAIL",
       "Live": 20.670000076293945,
       "Support": 19.666999912261964,
@@ -873,11 +887,11 @@
       "Trade Quality": 81.0,
       "Trigger": 22.28499984741211,
       "% From Trigger": -7.247026170860438,
-      "Breakout R/R": 1.4859889648358098,
+      "Breakout R/R": 1.4859439863112793,
       "Action": "WAIT"
     },
     {
-      "Rank": 67,
+      "Rank": 68,
       "Stock": "WDAY",
       "Live": 189.1699981689453,
       "Support": 192.08049926757812,
@@ -890,7 +904,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 68,
+      "Rank": 69,
       "Stock": "MANH",
       "Live": 200.11000061035156,
       "Support": 209.49450225830077,
@@ -899,11 +913,11 @@
       "Trade Quality": 76.0,
       "Trigger": 227.02999877929688,
       "% From Trigger": -11.857463028537962,
-      "Breakout R/R": 2.1160991331684427,
+      "Breakout R/R": 2.1161089940192452,
       "Action": "WAIT"
     },
     {
-      "Rank": 69,
+      "Rank": 70,
       "Stock": "NIQ",
       "Live": 17.399999618530273,
       "Support": 18.118499851226808,
@@ -916,7 +930,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 70,
+      "Rank": 71,
       "Stock": "NOW",
       "Live": 129.94000244140625,
       "Support": 137.18749923706054,
@@ -929,7 +943,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 71,
+      "Rank": 72,
       "Stock": "ZETA",
       "Live": 28.959999084472656,
       "Support": 30.476000118255616,
@@ -938,11 +952,11 @@
       "Trade Quality": 76.0,
       "Trigger": 32.810001373291016,
       "% From Trigger": -11.734233854535747,
-      "Breakout R/R": 2.572361859760449,
+      "Breakout R/R": 2.5722758788789863,
       "Action": "WAIT"
     },
     {
-      "Rank": 72,
+      "Rank": 73,
       "Stock": "UMC",
       "Live": 24.719999313354492,
       "Support": 22.916000080108642,
@@ -951,11 +965,11 @@
       "Trade Quality": 89.0,
       "Trigger": 25.799999237060547,
       "% From Trigger": -4.186046339701754,
-      "Breakout R/R": 1.483643360007408,
+      "Breakout R/R": 1.4836009038742304,
       "Action": "WAIT"
     },
     {
-      "Rank": 73,
+      "Rank": 74,
       "Stock": "SANM",
       "Live": 222.72999572753906,
       "Support": 205.77949981689454,
@@ -964,11 +978,11 @@
       "Trade Quality": 71.5,
       "Trigger": 232.5,
       "% From Trigger": -4.202152375252011,
-      "Breakout R/R": 1.1896093426436696,
+      "Breakout R/R": 1.1894507212204664,
       "Action": "WAIT"
     },
     {
-      "Rank": 74,
+      "Rank": 75,
       "Stock": "FSLY",
       "Live": 25.479999542236328,
       "Support": 22.899999618530273,
@@ -977,11 +991,11 @@
       "Trade Quality": 61.0,
       "Trigger": 31.329999923706055,
       "% From Trigger": -18.672200433180606,
-      "Breakout R/R": 0.7310232123040606,
+      "Breakout R/R": 0.731016054710929,
       "Action": "WAIT"
     },
     {
-      "Rank": 75,
+      "Rank": 76,
       "Stock": "AXTI",
       "Live": 78.18000030517578,
       "Support": 59.29999923706055,
@@ -994,7 +1008,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 76,
+      "Rank": 77,
       "Stock": "WAY",
       "Live": 25.06999969482422,
       "Support": 25.19199981689453,
@@ -1003,21 +1017,8 @@
       "Trade Quality": 77.5,
       "Trigger": 27.280000686645508,
       "% From Trigger": -8.10117645232744,
-      "Breakout R/R": 1.5102824533626302,
+      "Breakout R/R": 1.5089143728842964,
       "Action": "WAIT"
-    },
-    {
-      "Rank": 77,
-      "Stock": "SLAB",
-      "Live": 221.1699981689453,
-      "Support": 220.40050048828124,
-      "Support R/R": "5R+",
-      "Setup": 65,
-      "Trade Quality": 74.0,
-      "Trigger": 222.49000549316406,
-      "% From Trigger": -0.5932883687484569,
-      "Breakout R/R": 1.3624364301864065,
-      "Action": "BUY SUPPORT"
     },
     {
       "Rank": 78,
@@ -1042,7 +1043,7 @@
       "Trade Quality": 83.5,
       "Trigger": 683.3900146484375,
       "% From Trigger": -11.011281755223123,
-      "Breakout R/R": 1.9189671089969935,
+      "Breakout R/R": 1.9189644492043445,
       "Action": "WAIT"
     },
     {
@@ -1055,7 +1056,7 @@
       "Trade Quality": 83.5,
       "Trigger": 55.54999923706055,
       "% From Trigger": -15.91359185238337,
-      "Breakout R/R": 1.647356820235387,
+      "Breakout R/R": 1.6473191006385275,
       "Action": "WAIT"
     },
     {
@@ -1094,7 +1095,7 @@
       "Trade Quality": 76.0,
       "Trigger": 268.2699890136719,
       "% From Trigger": -16.013714993997617,
-      "Breakout R/R": 2.241208611284924,
+      "Breakout R/R": 2.241050025983843,
       "Action": "WAIT"
     },
     {
@@ -1107,7 +1108,7 @@
       "Trade Quality": 76.0,
       "Trigger": 244.97999572753906,
       "% From Trigger": -10.77638760588674,
-      "Breakout R/R": 2.5776442534014903,
+      "Breakout R/R": 2.5776020218258573,
       "Action": "WAIT"
     },
     {
@@ -1120,7 +1121,7 @@
       "Trade Quality": 85.5,
       "Trigger": 267.4800109863281,
       "% From Trigger": -1.5739576042081982,
-      "Breakout R/R": 1.566138824849355,
+      "Breakout R/R": 1.5661346326056378,
       "Action": "WAIT"
     },
     {
@@ -1211,7 +1212,7 @@
       "Trade Quality": 83.5,
       "Trigger": 126.5,
       "% From Trigger": -15.304348308578309,
-      "Breakout R/R": 1.716586314346006,
+      "Breakout R/R": 1.7165158952784525,
       "Action": "WAIT"
     },
     {
@@ -1224,7 +1225,7 @@
       "Trade Quality": 83.5,
       "Trigger": 36.22999954223633,
       "% From Trigger": -15.180789592857135,
-      "Breakout R/R": 1.6603161189920739,
+      "Breakout R/R": 1.6602435694522866,
       "Action": "WAIT"
     },
     {
@@ -1237,11 +1238,24 @@
       "Trade Quality": 81.0,
       "Trigger": 96.80000305175781,
       "% From Trigger": -26.756199079901354,
-      "Breakout R/R": 1.3022429116286904,
+      "Breakout R/R": 1.3022426768876636,
       "Action": "WAIT"
     },
     {
       "Rank": 95,
+      "Stock": "CTSH",
+      "Live": 56.84000015258789,
+      "Support": 60.32249984741211,
+      "Support R/R": "5R+",
+      "Setup": 60,
+      "Trade Quality": 76.0,
+      "Trigger": 65.41999816894531,
+      "% From Trigger": -13.115252608536942,
+      "Breakout R/R": 2.177877389114776,
+      "Action": "WAIT"
+    },
+    {
+      "Rank": 96,
       "Stock": "SSNC",
       "Live": 77.58999633789062,
       "Support": 80.34150009155273,
@@ -1254,7 +1268,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 96,
+      "Rank": 97,
       "Stock": "COHU",
       "Live": 65.97000122070312,
       "Support": 56.220000457763675,
@@ -1267,7 +1281,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 97,
+      "Rank": 98,
       "Stock": "WK",
       "Live": 65.1500015258789,
       "Support": 72.74900016784667,
@@ -1276,11 +1290,11 @@
       "Trade Quality": 83.5,
       "Trigger": 80.55999755859375,
       "% From Trigger": -19.128595456456765,
-      "Breakout R/R": 1.8289838845438853,
+      "Breakout R/R": 1.8259052305001318,
       "Action": "WAIT"
     },
     {
-      "Rank": 98,
+      "Rank": 99,
       "Stock": "BE",
       "Live": 291.25,
       "Support": 263.34800033569337,
@@ -1293,7 +1307,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 99,
+      "Rank": 100,
       "Stock": "BOX",
       "Live": 32.75,
       "Support": 33.86549968719483,
@@ -1302,11 +1316,11 @@
       "Trade Quality": 77.5,
       "Trigger": 36.34000015258789,
       "% From Trigger": -9.878921677253306,
-      "Breakout R/R": 1.5719099335521327,
+      "Breakout R/R": 1.5718586956419887,
       "Action": "WAIT"
     },
     {
-      "Rank": 100,
+      "Rank": 101,
       "Stock": "APH",
       "Live": 84.33999633789062,
       "Support": 81.25050010681153,
@@ -1315,11 +1329,11 @@
       "Trade Quality": 65.5,
       "Trigger": 88.16500091552734,
       "% From Trigger": -4.33846145059481,
-      "Breakout R/R": 1.1991902676791542,
+      "Breakout R/R": 1.1991812894277245,
       "Action": "WAIT"
     },
     {
-      "Rank": 101,
+      "Rank": 102,
       "Stock": "SIMO",
       "Live": 276.1600036621094,
       "Support": 262.40650100708007,
@@ -1328,11 +1342,11 @@
       "Trade Quality": 83.5,
       "Trigger": 294.3399963378906,
       "% From Trigger": -6.176528131403303,
-      "Breakout R/R": 1.8267303634921652,
+      "Breakout R/R": 1.8263781957946192,
       "Action": "WAIT"
     },
     {
-      "Rank": 102,
+      "Rank": 103,
       "Stock": "SNDK",
       "Live": 1729.760009765625,
       "Support": 1683.3372497558594,
@@ -1345,19 +1359,6 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 103,
-      "Stock": "CTSH",
-      "Live": 56.84000015258789,
-      "Support": 60.32249984741211,
-      "Support R/R": "5R+",
-      "Setup": 57,
-      "Trade Quality": 76.0,
-      "Trigger": 65.41999816894531,
-      "% From Trigger": -13.115252608536942,
-      "Breakout R/R": 2.177877389114776,
-      "Action": "WAIT"
-    },
-    {
       "Rank": 104,
       "Stock": "SKM",
       "Live": 35.90999984741211,
@@ -1367,7 +1368,7 @@
       "Trade Quality": 57.5,
       "Trigger": 41.0099983215332,
       "% From Trigger": -12.435988009887888,
-      "Breakout R/R": 1.2283236431777027,
+      "Breakout R/R": 1.228276714718086,
       "Action": "WAIT"
     },
     {
@@ -1393,7 +1394,7 @@
       "Trade Quality": 81.0,
       "Trigger": 48.459999084472656,
       "% From Trigger": -18.035489122759728,
-      "Breakout R/R": 1.4964341321307921,
+      "Breakout R/R": 1.4963566011276046,
       "Action": "WAIT"
     },
     {
@@ -1432,7 +1433,7 @@
       "Trade Quality": 47.5,
       "Trigger": 320.4800109863281,
       "% From Trigger": -18.881055819798508,
-      "Breakout R/R": 0.9926391373950015,
+      "Breakout R/R": 0.9926370603929817,
       "Action": "WAIT"
     },
     {
@@ -1471,7 +1472,7 @@
       "Trade Quality": 47.5,
       "Trigger": 478.0,
       "% From Trigger": -9.357742884169063,
-      "Breakout R/R": 0.9778114418633987,
+      "Breakout R/R": 0.9778017053049801,
       "Action": "WAIT"
     },
     {
@@ -1484,7 +1485,7 @@
       "Trade Quality": 63.5,
       "Trigger": 64.79000091552734,
       "% From Trigger": -23.537582627731123,
-      "Breakout R/R": 1.1544635084598778,
+      "Breakout R/R": 1.1544034010097675,
       "Action": "WAIT"
     },
     {
@@ -1510,7 +1511,7 @@
       "Trade Quality": 83.5,
       "Trigger": 161.92999267578125,
       "% From Trigger": -12.190447185345532,
-      "Breakout R/R": 1.5416345317072424,
+      "Breakout R/R": 1.5413458483856264,
       "Action": "WAIT"
     },
     {
@@ -1523,7 +1524,7 @@
       "Trade Quality": 67.5,
       "Trigger": 310.0,
       "% From Trigger": -9.729033439390122,
-      "Breakout R/R": 1.4376546010177456,
+      "Breakout R/R": 1.437391965507105,
       "Action": "WAIT"
     },
     {
@@ -1536,7 +1537,7 @@
       "Trade Quality": 61.0,
       "Trigger": 147.39999389648438,
       "% From Trigger": -31.628220520774008,
-      "Breakout R/R": 0.6154313347728577,
+      "Breakout R/R": 0.6154312537621442,
       "Action": "WAIT"
     },
     {
@@ -1549,7 +1550,7 @@
       "Trade Quality": 50.0,
       "Trigger": 102.25,
       "% From Trigger": -5.476771123834812,
-      "Breakout R/R": 1.023230062244356,
+      "Breakout R/R": 1.0231141480346049,
       "Action": "WAIT"
     },
     {
@@ -1567,19 +1568,6 @@
     },
     {
       "Rank": 120,
-      "Stock": "TER",
-      "Live": 403.0199890136719,
-      "Support": 371.9605999755859,
-      "Support R/R": "5R+",
-      "Setup": 52,
-      "Trade Quality": 53.5,
-      "Trigger": 444.1700134277344,
-      "% From Trigger": -9.26447602720879,
-      "Breakout R/R": 0.9559918997425039,
-      "Action": "WAIT"
-    },
-    {
-      "Rank": 121,
       "Stock": "GLW",
       "Live": 158.7100067138672,
       "Support": 153.87650146484376,
@@ -1588,11 +1576,11 @@
       "Trade Quality": 83.5,
       "Trigger": 176.94000244140625,
       "% From Trigger": -10.302924989263484,
-      "Breakout R/R": 1.7943756619689928,
+      "Breakout R/R": 1.7943500973506101,
       "Action": "WAIT"
     },
     {
-      "Rank": 122,
+      "Rank": 121,
       "Stock": "TSM",
       "Live": 456.94000244140625,
       "Support": 434.0375015258789,
@@ -1605,7 +1593,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 123,
+      "Rank": 122,
       "Stock": "T",
       "Live": 24.479999542236328,
       "Support": 25.60599994659424,
@@ -1614,11 +1602,11 @@
       "Trade Quality": 70.0,
       "Trigger": 26.93000030517578,
       "% From Trigger": -9.097663331509798,
-      "Breakout R/R": 2.1351306584899503,
+      "Breakout R/R": 2.1352596570613978,
       "Action": "WAIT"
     },
     {
-      "Rank": 124,
+      "Rank": 123,
       "Stock": "NBIS",
       "Live": 237.35499572753906,
       "Support": 224.67874984741212,
@@ -1631,7 +1619,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 125,
+      "Rank": 124,
       "Stock": "NCNO",
       "Live": 17.950000762939453,
       "Support": 21.10349988937378,
@@ -1640,11 +1628,11 @@
       "Trade Quality": 63.5,
       "Trigger": 24.09000015258789,
       "% From Trigger": -25.487751559805794,
-      "Breakout R/R": 1.2410905720329088,
+      "Breakout R/R": 1.2401928082516616,
       "Action": "WAIT"
     },
     {
-      "Rank": 126,
+      "Rank": 125,
       "Stock": "PATH",
       "Live": 12.319999694824219,
       "Support": 11.569999694824219,
@@ -1657,7 +1645,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 127,
+      "Rank": 126,
       "Stock": "BHE",
       "Live": 83.52999877929688,
       "Support": 77.67400009155273,
@@ -1666,11 +1654,11 @@
       "Trade Quality": 55.5,
       "Trigger": 86.51000213623047,
       "% From Trigger": -3.444692270658911,
-      "Breakout R/R": 0.933879448781778,
+      "Breakout R/R": 0.9338098233358406,
       "Action": "WAIT"
     },
     {
-      "Rank": 128,
+      "Rank": 127,
       "Stock": "SPCX",
       "Live": 149.24000549316406,
       "Support": 148.87150115966796,
@@ -1683,7 +1671,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 129,
+      "Rank": 128,
       "Stock": "INTC",
       "Live": 115.93000030517578,
       "Support": 107.19150047302246,
@@ -1696,7 +1684,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 130,
+      "Rank": 129,
       "Stock": "ADI",
       "Live": 398.2200012207031,
       "Support": 374.10360046386717,
@@ -1709,7 +1697,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 131,
+      "Rank": 130,
       "Stock": "ADP",
       "Live": 261.79998779296875,
       "Support": 270.9009979248047,
@@ -1722,7 +1710,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 132,
+      "Rank": 131,
       "Stock": "MSI",
       "Live": 446.1199951171875,
       "Support": 463.6995025634766,
@@ -1735,16 +1723,29 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 133,
+      "Rank": 132,
       "Stock": "GWRE",
       "Live": 142.52000427246094,
-      "Support": 139.04739379882812,
+      "Support": 139.0500030517578,
       "Support R/R": "5R+",
       "Setup": 49,
       "Trade Quality": 61.0,
       "Trigger": 207.49000549316406,
       "% From Trigger": -31.312352161870095,
-      "Breakout R/R": 0.5603713656726418,
+      "Breakout R/R": 0.5603926143393967,
+      "Action": "WAIT"
+    },
+    {
+      "Rank": 133,
+      "Stock": "TER",
+      "Live": 403.0199890136719,
+      "Support": 371.9605999755859,
+      "Support R/R": "5R+",
+      "Setup": 49,
+      "Trade Quality": 53.5,
+      "Trigger": 444.1700134277344,
+      "% From Trigger": -9.26447602720879,
+      "Breakout R/R": 0.9559918997425039,
       "Action": "WAIT"
     },
     {
@@ -1757,7 +1758,7 @@
       "Trade Quality": 47.5,
       "Trigger": 476.29998779296875,
       "% From Trigger": -9.981099988607966,
-      "Breakout R/R": 0.8733322771458081,
+      "Breakout R/R": 0.8728886636840328,
       "Action": "WAIT"
     },
     {
@@ -1796,7 +1797,7 @@
       "Trade Quality": 75.0,
       "Trigger": 52.599998474121094,
       "% From Trigger": -20.304183678693988,
-      "Breakout R/R": 1.3006517965973505,
+      "Breakout R/R": 1.3005613609270348,
       "Action": "WAIT"
     },
     {
@@ -1809,7 +1810,7 @@
       "Trade Quality": 63.5,
       "Trigger": 105.76000213623047,
       "% From Trigger": -14.551814560124942,
-      "Breakout R/R": 1.0393452775321015,
+      "Breakout R/R": 1.0393337999108965,
       "Action": "WAIT"
     },
     {
@@ -1822,7 +1823,7 @@
       "Trade Quality": 57.5,
       "Trigger": 159.4600067138672,
       "% From Trigger": -13.733856912831133,
-      "Breakout R/R": 1.1881782433716672,
+      "Breakout R/R": 1.1881776120920984,
       "Action": "WAIT"
     },
     {
@@ -1874,7 +1875,7 @@
       "Trade Quality": 63.5,
       "Trigger": 205.85000610351562,
       "% From Trigger": -10.565945763957174,
-      "Breakout R/R": 1.2372579861468032,
+      "Breakout R/R": 1.2372319370797502,
       "Action": "WAIT"
     },
     {
@@ -1931,19 +1932,6 @@
     },
     {
       "Rank": 148,
-      "Stock": "FIG",
-      "Live": 20.719999313354492,
-      "Support": 19.579999923706055,
-      "Support R/R": "5R+",
-      "Setup": 43,
-      "Trade Quality": 61.0,
-      "Trigger": 31.219999313354492,
-      "% From Trigger": -33.6322877352165,
-      "Breakout R/R": 0.48822577596258304,
-      "Action": "WAIT"
-    },
-    {
-      "Rank": 149,
       "Stock": "UCTT",
       "Live": 80.45999908447266,
       "Support": 65.62000274658203,
@@ -1956,7 +1944,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 150,
+      "Rank": 149,
       "Stock": "DIOD",
       "Live": 97.18000030517578,
       "Support": 92.43139999389649,
@@ -1965,11 +1953,11 @@
       "Trade Quality": 53.5,
       "Trigger": 110.11000061035156,
       "% From Trigger": -11.742802863957314,
-      "Breakout R/R": 0.9532480310212148,
+      "Breakout R/R": 0.9532479410366141,
       "Action": "WAIT"
     },
     {
-      "Rank": 151,
+      "Rank": 150,
       "Stock": "CDNS",
       "Live": 324.1700134277344,
       "Support": 318.19160095214846,
@@ -1982,7 +1970,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 152,
+      "Rank": 151,
       "Stock": "LRCX",
       "Live": 323.8599853515625,
       "Support": 304.94919860839843,
@@ -1991,11 +1979,11 @@
       "Trade Quality": 81.0,
       "Trigger": 345.2799987792969,
       "% From Trigger": -6.203664707907408,
-      "Breakout R/R": 1.3603907226145113,
+      "Breakout R/R": 1.360392816512461,
       "Action": "WAIT"
     },
     {
-      "Rank": 153,
+      "Rank": 152,
       "Stock": "QTWO",
       "Live": 55.119998931884766,
       "Support": 60.896000366210934,
@@ -2004,11 +1992,11 @@
       "Trade Quality": 75.0,
       "Trigger": 67.51000213623047,
       "% From Trigger": -18.352840782531075,
-      "Breakout R/R": 1.2548472675411884,
+      "Breakout R/R": 1.25483135115859,
       "Action": "WAIT"
     },
     {
-      "Rank": 154,
+      "Rank": 153,
       "Stock": "ECHO",
       "Live": 89.88999938964844,
       "Support": 91.60900001525879,
@@ -2021,7 +2009,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 155,
+      "Rank": 154,
       "Stock": "TYL",
       "Live": 316.260009765625,
       "Support": 344.209001159668,
@@ -2030,11 +2018,11 @@
       "Trade Quality": 57.5,
       "Trigger": 393.5299987792969,
       "% From Trigger": -19.635094974552914,
-      "Breakout R/R": 1.060220726742673,
+      "Breakout R/R": 1.0602208042059507,
       "Action": "WAIT"
     },
     {
-      "Rank": 156,
+      "Rank": 155,
       "Stock": "TDC",
       "Live": 28.690000534057617,
       "Support": 28.714000034332276,
@@ -2047,7 +2035,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 157,
+      "Rank": 156,
       "Stock": "ASML",
       "Live": 1834.3900146484375,
       "Support": 1719.9565991210939,
@@ -2056,11 +2044,11 @@
       "Trade Quality": 48.0,
       "Trigger": 1896.3499755859375,
       "% From Trigger": -3.2673273253981283,
-      "Breakout R/R": 0.964935363068736,
+      "Breakout R/R": 0.9649349301801918,
       "Action": "WAIT"
     },
     {
-      "Rank": 158,
+      "Rank": 157,
       "Stock": "LOGI",
       "Live": 100.66999816894531,
       "Support": 101.9131999206543,
@@ -2073,7 +2061,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 159,
+      "Rank": 158,
       "Stock": "ALAB",
       "Live": 357.8399963378906,
       "Support": 309.345499420166,
@@ -2082,11 +2070,11 @@
       "Trade Quality": 81.0,
       "Trigger": 377.8699951171875,
       "% From Trigger": -5.300764558743287,
-      "Breakout R/R": 1.2956107614878798,
+      "Breakout R/R": 1.2955451490387306,
       "Action": "WAIT"
     },
     {
-      "Rank": 160,
+      "Rank": 159,
       "Stock": "ADBE",
       "Live": 233.1699981689453,
       "Support": 257.26179870605466,
@@ -2095,11 +2083,11 @@
       "Trade Quality": 57.5,
       "Trigger": 294.5299987792969,
       "% From Trigger": -20.833192158579084,
-      "Breakout R/R": 1.0599727654360764,
+      "Breakout R/R": 1.0599583753578268,
       "Action": "WAIT"
     },
     {
-      "Rank": 161,
+      "Rank": 160,
       "Stock": "LDOS",
       "Live": 123.0999984741211,
       "Support": 129.6990003967285,
@@ -2112,7 +2100,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 162,
+      "Rank": 161,
       "Stock": "MDB",
       "Live": 337.19000244140625,
       "Support": 386.7431988525391,
@@ -2125,7 +2113,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 163,
+      "Rank": 162,
       "Stock": "PENG",
       "Live": 55.790000915527344,
       "Support": 53.363400268554685,
@@ -2138,7 +2126,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 164,
+      "Rank": 163,
       "Stock": "AMAT",
       "Live": 512.010009765625,
       "Support": 489.1140008544922,
@@ -2151,7 +2139,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 165,
+      "Rank": 164,
       "Stock": "KLAC",
       "Live": 196.52999877929688,
       "Support": 188.195400390625,
@@ -2164,7 +2152,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 166,
+      "Rank": 165,
       "Stock": "ARM",
       "Live": 293.6700134277344,
       "Support": 272.8369995117188,
@@ -2177,7 +2165,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 167,
+      "Rank": 166,
       "Stock": "MTSI",
       "Live": 284.2699890136719,
       "Support": 274.28099853515624,
@@ -2190,7 +2178,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 168,
+      "Rank": 167,
       "Stock": "CAMT",
       "Live": 152.82000732421875,
       "Support": 147.43800018310546,
@@ -2199,11 +2187,11 @@
       "Trade Quality": 47.5,
       "Trigger": 178.02000427246094,
       "% From Trigger": -14.155710787240183,
-      "Breakout R/R": 0.8030876535908996,
+      "Breakout R/R": 0.8030832137134175,
       "Action": "WAIT"
     },
     {
-      "Rank": 169,
+      "Rank": 168,
       "Stock": "TXN",
       "Live": 281.69000244140625,
       "Support": 270.8452001953125,
@@ -2216,7 +2204,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 170,
+      "Rank": 169,
       "Stock": "TTMI",
       "Live": 122.80000305175781,
       "Support": 124.16260070800782,
@@ -2225,11 +2213,11 @@
       "Trade Quality": 53.5,
       "Trigger": 150.1999969482422,
       "% From Trigger": -18.242339848998935,
-      "Breakout R/R": 0.9979850454257668,
+      "Breakout R/R": 0.9977165222790417,
       "Action": "WAIT"
     },
     {
-      "Rank": 171,
+      "Rank": 170,
       "Stock": "IRDM",
       "Live": 47.939998626708984,
       "Support": 47.8015998840332,
@@ -2238,11 +2226,11 @@
       "Trade Quality": 50.0,
       "Trigger": 50.970001220703125,
       "% From Trigger": -5.94467828414218,
-      "Breakout R/R": 1.189900106422509,
+      "Breakout R/R": 1.1898690637826446,
       "Action": "WAIT"
     },
     {
-      "Rank": 172,
+      "Rank": 171,
       "Stock": "NTES",
       "Live": 121.81999969482422,
       "Support": 122.97740036010742,
@@ -2255,7 +2243,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 173,
+      "Rank": 172,
       "Stock": "TENB",
       "Live": 34.9900016784668,
       "Support": 34.92040023803711,
@@ -2264,11 +2252,11 @@
       "Trade Quality": 81.0,
       "Trigger": 40.189998626708984,
       "% From Trigger": -12.93853477463529,
-      "Breakout R/R": 1.3803551564426466,
+      "Breakout R/R": 1.3802920363817206,
       "Action": "WAIT"
     },
     {
-      "Rank": 174,
+      "Rank": 173,
       "Stock": "RBLX",
       "Live": 41.18000030517578,
       "Support": 45.9560001373291,
@@ -2281,7 +2269,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 175,
+      "Rank": 174,
       "Stock": "PLXS",
       "Live": 266.1300048828125,
       "Support": 253.66119995117188,
@@ -2290,11 +2278,11 @@
       "Trade Quality": 55.0,
       "Trigger": 298.0,
       "% From Trigger": -10.694629233955533,
-      "Breakout R/R": 0.7341762168309953,
+      "Breakout R/R": 0.733992243654603,
       "Action": "WAIT"
     },
     {
-      "Rank": 176,
+      "Rank": 175,
       "Stock": "DBX",
       "Live": 32.70000076293945,
       "Support": 34.940000438690184,
@@ -2307,7 +2295,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 177,
+      "Rank": 176,
       "Stock": "ACLS",
       "Live": 128.69000244140625,
       "Support": 124.19759994506836,
@@ -2320,7 +2308,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 178,
+      "Rank": 177,
       "Stock": "HUBS",
       "Live": 197.6699981689453,
       "Support": 230.2193991088867,
@@ -2329,11 +2317,11 @@
       "Trade Quality": 63.5,
       "Trigger": 265.0,
       "% From Trigger": -25.40754786077536,
-      "Breakout R/R": 1.0421770153724401,
+      "Breakout R/R": 1.0421769709525177,
       "Action": "WAIT"
     },
     {
-      "Rank": 179,
+      "Rank": 178,
       "Stock": "POWL",
       "Live": 188.4600067138672,
       "Support": 173.10000610351562,
@@ -2346,7 +2334,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 180,
+      "Rank": 179,
       "Stock": "STM",
       "Live": 53.2400016784668,
       "Support": 47.529998779296875,
@@ -2359,7 +2347,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 181,
+      "Rank": 180,
       "Stock": "VSH",
       "Live": 32.459999084472656,
       "Support": 30.739999771118164,
@@ -2368,11 +2356,11 @@
       "Trade Quality": 61.0,
       "Trigger": 41.9900016784668,
       "% From Trigger": -22.69588524184626,
-      "Breakout R/R": 0.7332774234033363,
+      "Breakout R/R": 0.7332830462582873,
       "Action": "WAIT"
     },
     {
-      "Rank": 182,
+      "Rank": 181,
       "Stock": "JBL",
       "Live": 318.8399963378906,
       "Support": 318.2206005859375,
@@ -2381,11 +2369,11 @@
       "Trade Quality": 55.0,
       "Trigger": 376.9700012207031,
       "% From Trigger": -15.420326470163703,
-      "Breakout R/R": 0.7371791820425244,
+      "Breakout R/R": 0.7371727959398767,
       "Action": "WAIT"
     },
     {
-      "Rank": 183,
+      "Rank": 182,
       "Stock": "IONQ",
       "Live": 43.90999984741211,
       "Support": 40.05479991912842,
@@ -2394,11 +2382,11 @@
       "Trade Quality": 53.5,
       "Trigger": 47.94499969482422,
       "% From Trigger": -8.415892946282987,
-      "Breakout R/R": 0.9423195340785959,
+      "Breakout R/R": 0.9423203210963531,
       "Action": "WAIT"
     },
     {
-      "Rank": 184,
+      "Rank": 183,
       "Stock": "KLIC",
       "Live": 93.72000122070312,
       "Support": 88.67779968261719,
@@ -2411,7 +2399,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 185,
+      "Rank": 184,
       "Stock": "NVMI",
       "Live": 385.1199951171875,
       "Support": 382.2178015136719,
@@ -2424,7 +2412,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 186,
+      "Rank": 185,
       "Stock": "TSEM",
       "Live": 234.42999267578125,
       "Support": 225.37980163574218,
@@ -2437,7 +2425,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 187,
+      "Rank": 186,
       "Stock": "VIAV",
       "Live": 41.81999969482422,
       "Support": 38.16460029602051,
@@ -2450,7 +2438,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 188,
+      "Rank": 187,
       "Stock": "MTCH",
       "Live": 40.130001068115234,
       "Support": 41.9935001373291,
@@ -2463,7 +2451,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 189,
+      "Rank": 188,
       "Stock": "DOCN",
       "Live": 135.00999450683594,
       "Support": 127.99750022888183,
@@ -2476,7 +2464,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 190,
+      "Rank": 189,
       "Stock": "NVTS",
       "Live": 11.729999542236328,
       "Support": 12.054400005340575,
@@ -2489,7 +2477,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 191,
+      "Rank": 190,
       "Stock": "MCHP",
       "Live": 78.77999877929688,
       "Support": 76.0382000732422,
@@ -2502,7 +2490,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 192,
+      "Rank": 191,
       "Stock": "TOST",
       "Live": 30.459999084472656,
       "Support": 32.94320007324219,
@@ -2515,20 +2503,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 193,
-      "Stock": "BZ",
-      "Live": 14.170000076293945,
-      "Support": 15.951899967193604,
-      "Support R/R": "5R+",
-      "Setup": 34,
-      "Trade Quality": 47.5,
-      "Trigger": 19.334999084472656,
-      "% From Trigger": -26.713210513294328,
-      "Breakout R/R": 0.8071911922137116,
-      "Action": "WAIT"
-    },
-    {
-      "Rank": 194,
+      "Rank": 192,
       "Stock": "FLEX",
       "Live": 113.83000183105469,
       "Support": 114.95740005493164,
@@ -2541,7 +2516,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 195,
+      "Rank": 193,
       "Stock": "CRUS",
       "Live": 120.80000305175781,
       "Support": 121.01120010375976,
@@ -2550,11 +2525,11 @@
       "Trade Quality": 63.5,
       "Trigger": 140.75,
       "% From Trigger": -14.174065327347918,
-      "Breakout R/R": 1.1198572612409852,
+      "Breakout R/R": 1.1198620839273818,
       "Action": "WAIT"
     },
     {
-      "Rank": 196,
+      "Rank": 194,
       "Stock": "RMBS",
       "Live": 103.12000274658203,
       "Support": 93.26060043334961,
@@ -2567,7 +2542,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 197,
+      "Rank": 195,
       "Stock": "SYNA",
       "Live": 100.79000091552734,
       "Support": 101.805,
@@ -2576,11 +2551,11 @@
       "Trade Quality": 63.5,
       "Trigger": 123.20999908447266,
       "% From Trigger": -18.196573602418564,
-      "Breakout R/R": 1.054693030946402,
+      "Breakout R/R": 1.0546430633138972,
       "Action": "WAIT"
     },
     {
-      "Rank": 198,
+      "Rank": 196,
       "Stock": "AMBA",
       "Live": 68.7300033569336,
       "Support": 61.90999984741211,
@@ -2593,7 +2568,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 199,
+      "Rank": 197,
       "Stock": "CBRS",
       "Live": 194.9499969482422,
       "Support": 181.8800048828125,
@@ -2602,11 +2577,11 @@
       "Trade Quality": 61.0,
       "Trigger": 265.6300048828125,
       "% From Trigger": -26.608442809671327,
-      "Breakout R/R": 0.597126113776948,
+      "Breakout R/R": 0.5971236472898934,
       "Action": "WAIT"
     },
     {
-      "Rank": 200,
+      "Rank": 198,
       "Stock": "FN",
       "Live": 424.1199951171875,
       "Support": 378.70001220703125,
@@ -2619,7 +2594,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 201,
+      "Rank": 199,
       "Stock": "ICHR",
       "Live": 59.7599983215332,
       "Support": 50.36000061035156,
@@ -2632,7 +2607,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 202,
+      "Rank": 200,
       "Stock": "IPGP",
       "Live": 78.5199966430664,
       "Support": 74.55999755859375,
@@ -2641,11 +2616,11 @@
       "Trade Quality": 61.0,
       "Trigger": 105.87000274658203,
       "% From Trigger": -25.833574566898378,
-      "Breakout R/R": 0.6233489735500919,
+      "Breakout R/R": 0.6233498434684118,
       "Action": "WAIT"
     },
     {
-      "Rank": 203,
+      "Rank": 201,
       "Stock": "AEIS",
       "Live": 283.29998779296875,
       "Support": 290.3301992797852,
@@ -2658,7 +2633,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 204,
+      "Rank": 202,
       "Stock": "LSCC",
       "Live": 125.44999694824219,
       "Support": 121.41239974975586,
@@ -2667,11 +2642,11 @@
       "Trade Quality": 47.5,
       "Trigger": 139.97999572753906,
       "% From Trigger": -10.380053738234473,
-      "Breakout R/R": 0.9842677669141732,
+      "Breakout R/R": 0.9842667145111801,
       "Action": "WAIT"
     },
     {
-      "Rank": 205,
+      "Rank": 203,
       "Stock": "TIGO",
       "Live": 91.73999786376953,
       "Support": 94.4522004699707,
@@ -2684,7 +2659,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 206,
+      "Rank": 204,
       "Stock": "POWI",
       "Live": 51.08000183105469,
       "Support": 46.709999084472656,
@@ -2693,11 +2668,11 @@
       "Trade Quality": 61.0,
       "Trigger": 74.91999816894531,
       "% From Trigger": -31.82060453889922,
-      "Breakout R/R": 0.48940039536902075,
+      "Breakout R/R": 0.48940191183141085,
       "Action": "WAIT"
     },
     {
-      "Rank": 207,
+      "Rank": 205,
       "Stock": "UI",
       "Live": 559.3200073242188,
       "Support": 570.5870025634765,
@@ -2710,7 +2685,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 208,
+      "Rank": 206,
       "Stock": "MRCY",
       "Live": 82.63999938964844,
       "Support": 93.81880020141601,
@@ -2723,7 +2698,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 209,
+      "Rank": 207,
       "Stock": "SHAZ",
       "Live": 54.16999816894531,
       "Support": 50.650001525878906,
@@ -2732,11 +2707,24 @@
       "Trade Quality": 61.0,
       "Trigger": 80.0,
       "% From Trigger": -32.28750228881836,
-      "Breakout R/R": 0.74489918478882,
+      "Breakout R/R": 0.7449013199660386,
       "Action": "WAIT"
     },
     {
-      "Rank": 210,
+      "Rank": 208,
+      "Stock": "BZ",
+      "Live": 14.170000076293945,
+      "Support": 15.951899967193604,
+      "Support R/R": "5R+",
+      "Setup": 30,
+      "Trade Quality": 47.5,
+      "Trigger": 19.334999084472656,
+      "% From Trigger": -26.713210513294328,
+      "Breakout R/R": 0.8071911922137116,
+      "Action": "WAIT"
+    },
+    {
+      "Rank": 209,
       "Stock": "Q",
       "Live": 125.61000061035156,
       "Support": 128.1956002807617,
@@ -2749,7 +2737,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 211,
+      "Rank": 210,
       "Stock": "JKHY",
       "Live": 146.22000122070312,
       "Support": 157.6529995727539,
@@ -2762,7 +2750,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 212,
+      "Rank": 211,
       "Stock": "GFS",
       "Live": 47.86000061035156,
       "Support": 48.687999877929684,
@@ -2771,11 +2759,11 @@
       "Trade Quality": 81.0,
       "Trigger": 59.91299819946289,
       "% From Trigger": -20.117500294317402,
-      "Breakout R/R": 1.2771867090343343,
+      "Breakout R/R": 1.2771865090902779,
       "Action": "WAIT"
     },
     {
-      "Rank": 213,
+      "Rank": 212,
       "Stock": "ACMR",
       "Live": 75.61000061035156,
       "Support": 77.05110023498536,
@@ -2788,7 +2776,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 214,
+      "Rank": 213,
       "Stock": "ASTS",
       "Live": 59.400001525878906,
       "Support": 62.897999877929685,
@@ -2801,7 +2789,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 215,
+      "Rank": 214,
       "Stock": "MDA",
       "Live": 29.639999389648438,
       "Support": 31.07119987487793,
@@ -2810,11 +2798,11 @@
       "Trade Quality": 63.5,
       "Trigger": 36.79999923706055,
       "% From Trigger": -19.45652172786302,
-      "Breakout R/R": 1.1341242573738979,
+      "Breakout R/R": 1.1340908973419246,
       "Action": "WAIT"
     },
     {
-      "Rank": 216,
+      "Rank": 215,
       "Stock": "ON",
       "Live": 75.94999694824219,
       "Support": 77.27879989624023,
@@ -2823,11 +2811,11 @@
       "Trade Quality": 63.5,
       "Trigger": 94.26000213623047,
       "% From Trigger": -19.42499975920382,
-      "Breakout R/R": 1.0282732971175472,
+      "Breakout R/R": 1.0282118010831713,
       "Action": "WAIT"
     },
     {
-      "Rank": 217,
+      "Rank": 216,
       "Stock": "ALGM",
       "Live": 36.599998474121094,
       "Support": 32.66999816894531,
@@ -2840,7 +2828,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 218,
+      "Rank": 217,
       "Stock": "COHR",
       "Live": 292.2099914550781,
       "Support": 275.7900085449219,
@@ -2853,7 +2841,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 219,
+      "Rank": 218,
       "Stock": "CRDO",
       "Live": 192.35000610351562,
       "Support": 152.72000122070312,
@@ -2866,7 +2854,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 220,
+      "Rank": 219,
       "Stock": "ITRI",
       "Live": 87.38999938964844,
       "Support": 95.98100021362305,
@@ -2875,11 +2863,11 @@
       "Trade Quality": 57.5,
       "Trigger": 108.19999694824219,
       "% From Trigger": -19.2329003193487,
-      "Breakout R/R": 1.0564952135838224,
+      "Breakout R/R": 1.0565024265991039,
       "Action": "WAIT"
     },
     {
-      "Rank": 221,
+      "Rank": 220,
       "Stock": "CIEN",
       "Live": 354.9200134277344,
       "Support": 375.78580078125,
@@ -2892,7 +2880,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 222,
+      "Rank": 221,
       "Stock": "RGTI",
       "Live": 15.739999771118164,
       "Support": 16.11680009841919,
@@ -2901,11 +2889,11 @@
       "Trade Quality": 53.5,
       "Trigger": 19.364999771118164,
       "% From Trigger": -18.719339234935028,
-      "Breakout R/R": 0.8964442521159737,
+      "Breakout R/R": 0.8964212409797326,
       "Action": "WAIT"
     },
     {
-      "Rank": 223,
+      "Rank": 222,
       "Stock": "INFY",
       "Live": 10.640000343322754,
       "Support": 11.634199981689454,
@@ -2914,11 +2902,11 @@
       "Trade Quality": 50.0,
       "Trigger": 12.720000267028809,
       "% From Trigger": -16.352200314787492,
-      "Breakout R/R": 1.0497319198927386,
+      "Breakout R/R": 1.0498132243087621,
       "Action": "WAIT"
     },
     {
-      "Rank": 224,
+      "Rank": 223,
       "Stock": "ADSK",
       "Live": 203.17999267578125,
       "Support": 233.16299926757813,
@@ -2927,11 +2915,11 @@
       "Trade Quality": 47.5,
       "Trigger": 271.7200012207031,
       "% From Trigger": -25.224498835936128,
-      "Breakout R/R": 0.9126026786888152,
+      "Breakout R/R": 0.9126026355868487,
       "Action": "WAIT"
     },
     {
-      "Rank": 225,
+      "Rank": 224,
       "Stock": "NXPI",
       "Live": 236.47000122070312,
       "Support": 234.8206005859375,
@@ -2940,11 +2928,11 @@
       "Trade Quality": 47.5,
       "Trigger": 280.4599914550781,
       "% From Trigger": -15.684943155758802,
-      "Breakout R/R": 0.8541475760964964,
+      "Breakout R/R": 0.8541315665712542,
       "Action": "WAIT"
     },
     {
-      "Rank": 226,
+      "Rank": 225,
       "Stock": "ZM",
       "Live": 88.3550033569336,
       "Support": 96.86510009765625,
@@ -2953,11 +2941,11 @@
       "Trade Quality": 47.5,
       "Trigger": 110.88999938964844,
       "% From Trigger": -20.32193719609532,
-      "Breakout R/R": 0.9381955684372576,
+      "Breakout R/R": 0.9381670653790142,
       "Action": "WAIT"
     },
     {
-      "Rank": 227,
+      "Rank": 226,
       "Stock": "INTU",
       "Live": 268.0299987792969,
       "Support": 323.7002001953125,
@@ -2970,7 +2958,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 228,
+      "Rank": 227,
       "Stock": "BSY",
       "Live": 31.1200008392334,
       "Support": 34.16260009765625,
@@ -2983,7 +2971,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 229,
+      "Rank": 228,
       "Stock": "FPS",
       "Live": 37.20000076293945,
       "Support": 35.00400024414063,
@@ -2992,11 +2980,11 @@
       "Trade Quality": 81.0,
       "Trigger": 41.88999938964844,
       "% From Trigger": -11.195986381102562,
-      "Breakout R/R": 1.2876948484052275,
+      "Breakout R/R": 1.2876796685279424,
       "Action": "WAIT"
     },
     {
-      "Rank": 230,
+      "Rank": 229,
       "Stock": "CRWV",
       "Live": 85.93000030517578,
       "Support": 78.2699966430664,
@@ -3009,7 +2997,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 231,
+      "Rank": 230,
       "Stock": "INOD",
       "Live": 66.94000244140625,
       "Support": 53.369998931884766,
@@ -3022,7 +3010,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 232,
+      "Rank": 231,
       "Stock": "SNPS",
       "Live": 415.0899963378906,
       "Support": 402.1038006591797,
@@ -3035,7 +3023,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 233,
+      "Rank": 232,
       "Stock": "HUBB",
       "Live": 459.0899963378906,
       "Support": 473.47480041503906,
@@ -3048,7 +3036,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 234,
+      "Rank": 233,
       "Stock": "ROK",
       "Live": 431.5299987792969,
       "Support": 438.8292010498047,
@@ -3061,7 +3049,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 235,
+      "Rank": 234,
       "Stock": "PNR",
       "Live": 53.470001220703125,
       "Support": 61.56999992370606,
@@ -3074,7 +3062,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 236,
+      "Rank": 235,
       "Stock": "ORCL",
       "Live": 137.7899932861328,
       "Support": 147.15550003051757,
@@ -3083,11 +3071,11 @@
       "Trade Quality": 63.5,
       "Trigger": 170.6999969482422,
       "% From Trigger": -19.279440099865962,
-      "Breakout R/R": 1.1032998583453253,
+      "Breakout R/R": 1.1032881847517932,
       "Action": "WAIT"
     },
     {
-      "Rank": 237,
+      "Rank": 236,
       "Stock": "AAOI",
       "Live": 100.66999816894531,
       "Support": 93.62000274658203,
@@ -3100,6 +3088,19 @@
       "Action": "WAIT"
     },
     {
+      "Rank": 237,
+      "Stock": "EXTR",
+      "Live": 21.06999969482422,
+      "Support": 20.760000228881836,
+      "Support R/R": "5R+",
+      "Setup": 26,
+      "Trade Quality": 61.0,
+      "Trigger": 32.40999984741211,
+      "% From Trigger": -34.98920149946676,
+      "Breakout R/R": 0.548149474631124,
+      "Action": "WAIT"
+    },
+    {
       "Rank": 238,
       "Stock": "PSN",
       "Live": 41.54999923706055,
@@ -3109,7 +3110,7 @@
       "Trade Quality": 61.0,
       "Trigger": 62.29899978637695,
       "% From Trigger": -33.305511517784645,
-      "Breakout R/R": 0.6011702498960078,
+      "Breakout R/R": 0.6011603359767532,
       "Action": "WAIT"
     },
     {
@@ -3135,7 +3136,7 @@
       "Trade Quality": 47.5,
       "Trigger": 47.599998474121094,
       "% From Trigger": -14.411758436051002,
-      "Breakout R/R": 0.7871388775257996,
+      "Breakout R/R": 0.7871046770986413,
       "Action": "WAIT"
     },
     {
@@ -3148,7 +3149,7 @@
       "Trade Quality": 70.0,
       "Trigger": 51.66999816894531,
       "% From Trigger": -11.012190494190467,
-      "Breakout R/R": 1.719344512744184,
+      "Breakout R/R": 1.7192934013881218,
       "Action": "WAIT"
     },
     {
@@ -3174,7 +3175,7 @@
       "Trade Quality": 53.5,
       "Trigger": 580.0,
       "% From Trigger": -21.813791209253775,
-      "Breakout R/R": 0.8574143632863919,
+      "Breakout R/R": 0.8573819480614554,
       "Action": "WAIT"
     },
     {
@@ -3200,24 +3201,11 @@
       "Trade Quality": 63.5,
       "Trigger": 108.38999938964844,
       "% From Trigger": -26.829045110071213,
-      "Breakout R/R": 1.0252584853577653,
+      "Breakout R/R": 1.0252298189446598,
       "Action": "WAIT"
     },
     {
       "Rank": 246,
-      "Stock": "EXTR",
-      "Live": 21.06999969482422,
-      "Support": 20.760000228881836,
-      "Support R/R": "5R+",
-      "Setup": 23,
-      "Trade Quality": 61.0,
-      "Trigger": 32.40999984741211,
-      "% From Trigger": -34.98920149946676,
-      "Breakout R/R": 0.548149474631124,
-      "Action": "WAIT"
-    },
-    {
-      "Rank": 247,
       "Stock": "QNT",
       "Live": 48.72999954223633,
       "Support": 47.209999084472656,
@@ -3226,11 +3214,11 @@
       "Trade Quality": 61.0,
       "Trigger": 72.4000015258789,
       "% From Trigger": -32.69337221654877,
-      "Breakout R/R": 0.7050718506781638,
+      "Breakout R/R": 0.7050670026892922,
       "Action": "WAIT"
     },
     {
-      "Rank": 248,
+      "Rank": 247,
       "Stock": "APLD",
       "Live": 25.40999984741211,
       "Support": 27.540500030517578,
@@ -3243,7 +3231,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 249,
+      "Rank": 248,
       "Stock": "APP",
       "Live": 305.6600036621094,
       "Support": 304.7699890136719,
@@ -3256,7 +3244,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 250,
+      "Rank": 249,
       "Stock": "IBM",
       "Live": 219.99000549316406,
       "Support": 233.67949905395508,
@@ -3269,7 +3257,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 251,
+      "Rank": 250,
       "Stock": "RDDT",
       "Live": 145.36000061035156,
       "Support": 158.02600006103515,
@@ -3278,11 +3266,11 @@
       "Trade Quality": 63.5,
       "Trigger": 187.42999267578125,
       "% From Trigger": -22.445709709973094,
-      "Breakout R/R": 1.1678594750773676,
+      "Breakout R/R": 1.167846299606141,
       "Action": "WAIT"
     },
     {
-      "Rank": 252,
+      "Rank": 251,
       "Stock": "FICO",
       "Live": 617.8699951171875,
       "Support": 595.1900024414062,
@@ -3295,7 +3283,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 253,
+      "Rank": 252,
       "Stock": "SNX",
       "Live": 258.19000244140625,
       "Support": 263.702001953125,
@@ -3304,11 +3292,11 @@
       "Trade Quality": 47.5,
       "Trigger": 298.7699890136719,
       "% From Trigger": -13.582350324486125,
-      "Breakout R/R": 0.8467696290058976,
+      "Breakout R/R": 0.8467063445065465,
       "Action": "WAIT"
     },
     {
-      "Rank": 254,
+      "Rank": 253,
       "Stock": "TDS",
       "Live": 34.15999984741211,
       "Support": 36.5689998626709,
@@ -3321,7 +3309,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 255,
+      "Rank": 254,
       "Stock": "OSIS",
       "Live": 192.3000030517578,
       "Support": 212.63859985351561,
@@ -3330,11 +3318,11 @@
       "Trade Quality": 47.5,
       "Trigger": 240.89999389648438,
       "% From Trigger": -20.174342912441155,
-      "Breakout R/R": 0.9171382781983037,
+      "Breakout R/R": 0.917000243777504,
       "Action": "WAIT"
     },
     {
-      "Rank": 256,
+      "Rank": 255,
       "Stock": "VSAT",
       "Live": 69.08999633789062,
       "Support": 75.28879974365235,
@@ -3343,11 +3331,11 @@
       "Trade Quality": 47.5,
       "Trigger": 88.4000015258789,
       "% From Trigger": -21.84389689443085,
-      "Breakout R/R": 0.815688764335143,
+      "Breakout R/R": 0.8156784116423588,
       "Action": "WAIT"
     },
     {
-      "Rank": 257,
+      "Rank": 256,
       "Stock": "CW",
       "Live": 533.8499755859375,
       "Support": 637.2114025878906,
@@ -3356,11 +3344,11 @@
       "Trade Quality": 63.5,
       "Trigger": 770.1799926757812,
       "% From Trigger": -30.68503717796918,
-      "Breakout R/R": 1.0217591716366905,
+      "Breakout R/R": 1.0217598244078017,
       "Action": "WAIT"
     },
     {
-      "Rank": 258,
+      "Rank": 257,
       "Stock": "PCG",
       "Live": 12.180000305175781,
       "Support": 15.800600032806397,
@@ -3369,11 +3357,11 @@
       "Trade Quality": 63.5,
       "Trigger": 18.440000534057617,
       "% From Trigger": -33.94793952050043,
-      "Breakout R/R": 1.2158357343763748,
+      "Breakout R/R": 1.2149644944682736,
       "Action": "WAIT"
     },
     {
-      "Rank": 259,
+      "Rank": 258,
       "Stock": "VRT",
       "Live": 248.33999633789062,
       "Support": 264.1689999389648,
@@ -3386,7 +3374,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 260,
+      "Rank": 259,
       "Stock": "PL",
       "Live": 16.3799991607666,
       "Support": 15.600000381469727,
@@ -3399,7 +3387,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 261,
+      "Rank": 260,
       "Stock": "YOU",
       "Live": 41.220001220703125,
       "Support": 37.375,
@@ -3408,11 +3396,11 @@
       "Trade Quality": 61.0,
       "Trigger": 69.06999969482422,
       "% From Trigger": -40.32141102819209,
-      "Breakout R/R": 0.49360536614312117,
+      "Breakout R/R": 0.49359987521111215,
       "Action": "WAIT"
     },
     {
-      "Rank": 262,
+      "Rank": 261,
       "Stock": "RAMP",
       "Live": 37.650001525878906,
       "Support": 37.718600006103514,
@@ -3425,7 +3413,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 263,
+      "Rank": 262,
       "Stock": "BDC",
       "Live": 109.25,
       "Support": 118.36319961547852,
@@ -3438,7 +3426,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 264,
+      "Rank": 263,
       "Stock": "ED",
       "Live": 103.33000183105469,
       "Support": 107.57539978027344,
@@ -3451,7 +3439,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 265,
+      "Rank": 264,
       "Stock": "FLUT",
       "Live": 74.44999694824219,
       "Support": 97.27039978027344,
@@ -3464,7 +3452,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 266,
+      "Rank": 265,
       "Stock": "ENPH",
       "Live": 31.829999923706055,
       "Support": 37.34079990386963,
@@ -3477,7 +3465,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 267,
+      "Rank": 266,
       "Stock": "CMS",
       "Live": 63.45000076293945,
       "Support": 69.02779930114747,
@@ -3486,11 +3474,11 @@
       "Trade Quality": 57.5,
       "Trigger": 76.38999938964844,
       "% From Trigger": -16.939388310117565,
-      "Breakout R/R": 1.0589546830323393,
+      "Breakout R/R": 1.0586388680548746,
       "Action": "WAIT"
     },
     {
-      "Rank": 268,
+      "Rank": 267,
       "Stock": "LNT",
       "Live": 64.33999633789062,
       "Support": 68.72099960327148,
@@ -3499,11 +3487,11 @@
       "Trade Quality": 57.5,
       "Trigger": 75.69000244140625,
       "% From Trigger": -14.99538345543321,
-      "Breakout R/R": 1.1154048030585841,
+      "Breakout R/R": 1.1153909992135995,
       "Action": "WAIT"
     },
     {
-      "Rank": 269,
+      "Rank": 268,
       "Stock": "BIDU",
       "Live": 86.70999908447266,
       "Support": 98.26680023193359,
@@ -3512,11 +3500,11 @@
       "Trade Quality": 57.5,
       "Trigger": 114.44999694824219,
       "% From Trigger": -24.237657145866432,
-      "Breakout R/R": 1.0188366982179489,
+      "Breakout R/R": 1.0187494744274124,
       "Action": "WAIT"
     },
     {
-      "Rank": 270,
+      "Rank": 269,
       "Stock": "SOFI",
       "Live": 15.90999984741211,
       "Support": 17.534999809265138,
@@ -3529,7 +3517,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 271,
+      "Rank": 270,
       "Stock": "WEC",
       "Live": 102.58000183105469,
       "Support": 107.34359985351563,
@@ -3538,11 +3526,11 @@
       "Trade Quality": 50.0,
       "Trigger": 116.44999694824219,
       "% From Trigger": -11.91068740289638,
-      "Breakout R/R": 1.0425778806189747,
+      "Breakout R/R": 1.0425876932999623,
       "Action": "WAIT"
     },
     {
-      "Rank": 272,
+      "Rank": 271,
       "Stock": "AKAM",
       "Live": 108.44999694824219,
       "Support": 112.75580001831055,
@@ -3551,11 +3539,11 @@
       "Trade Quality": 47.5,
       "Trigger": 128.4600067138672,
       "% From Trigger": -15.576840043450602,
-      "Breakout R/R": 0.8708130852022417,
+      "Breakout R/R": 0.8708112991410876,
       "Action": "WAIT"
     },
     {
-      "Rank": 273,
+      "Rank": 272,
       "Stock": "AVGO",
       "Live": 355.1000061035156,
       "Support": 375.7387994384766,
@@ -3568,7 +3556,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 274,
+      "Rank": 273,
       "Stock": "ESE",
       "Live": 265.69000244140625,
       "Support": 289.3478021240234,
@@ -3577,11 +3565,11 @@
       "Trade Quality": 47.5,
       "Trigger": 336.7699890136719,
       "% From Trigger": -21.106389788604353,
-      "Breakout R/R": 0.8447884706282589,
+      "Breakout R/R": 0.8447793103982498,
       "Action": "WAIT"
     },
     {
-      "Rank": 275,
+      "Rank": 274,
       "Stock": "GE",
       "Live": 317.8900146484375,
       "Support": 343.6578002929688,
@@ -3594,7 +3582,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 276,
+      "Rank": 275,
       "Stock": "OLED",
       "Live": 76.16000366210938,
       "Support": 82.70640029907227,
@@ -3603,11 +3591,11 @@
       "Trade Quality": 47.5,
       "Trigger": 94.41000366210938,
       "% From Trigger": -19.33057863795473,
-      "Breakout R/R": 0.8496192431445034,
+      "Breakout R/R": 0.849625325883336,
       "Action": "WAIT"
     },
     {
-      "Rank": 277,
+      "Rank": 276,
       "Stock": "QBTS",
       "Live": 16.43000030517578,
       "Support": 18.20280002593994,
@@ -3620,7 +3608,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 278,
+      "Rank": 277,
       "Stock": "AMX",
       "Live": 21.780000686645508,
       "Support": 23.634400100708007,
@@ -3633,7 +3621,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 279,
+      "Rank": 278,
       "Stock": "FSLR",
       "Live": 176.92999267578125,
       "Support": 170.8000030517578,
@@ -3643,6 +3631,19 @@
       "Trigger": 269.70001220703125,
       "% From Trigger": -34.397484364975284,
       "Breakout R/R": 0.48799055538935227,
+      "Action": "WAIT"
+    },
+    {
+      "Rank": 279,
+      "Stock": "CALX",
+      "Live": 33.529998779296875,
+      "Support": 36.94279991149902,
+      "Support R/R": "5R+",
+      "Setup": 15,
+      "Trade Quality": 57.5,
+      "Trigger": 40.880001068115234,
+      "% From Trigger": -17.979457183896862,
+      "Breakout R/R": 1.0624612456453046,
       "Action": "WAIT"
     },
     {
@@ -3681,7 +3682,7 @@
       "Trade Quality": 50.0,
       "Trigger": 114.81999969482422,
       "% From Trigger": -12.689426697046924,
-      "Breakout R/R": 1.0775543372031215,
+      "Breakout R/R": 1.0772802275329416,
       "Action": "WAIT"
     },
     {
@@ -3694,7 +3695,7 @@
       "Trade Quality": 50.0,
       "Trigger": 73.4800033569336,
       "% From Trigger": -6.518781568720977,
-      "Breakout R/R": 1.1441034194020543,
+      "Breakout R/R": 1.144047018076284,
       "Action": "WAIT"
     },
     {
@@ -3707,7 +3708,7 @@
       "Trade Quality": 47.5,
       "Trigger": 20.915000915527344,
       "% From Trigger": -27.085826763323894,
-      "Breakout R/R": 0.87639128357374,
+      "Breakout R/R": 0.8763689640444142,
       "Action": "WAIT"
     },
     {
@@ -3720,7 +3721,7 @@
       "Trade Quality": 47.5,
       "Trigger": 226.0800018310547,
       "% From Trigger": -26.60120262852348,
-      "Breakout R/R": 0.7533292447470121,
+      "Breakout R/R": 0.7536377372715298,
       "Action": "WAIT"
     },
     {
@@ -3746,24 +3747,11 @@
       "Trade Quality": 40.0,
       "Trigger": 30.950000762939453,
       "% From Trigger": -12.924070763803442,
-      "Breakout R/R": 0.8337531872023325,
+      "Breakout R/R": 0.8337060795206909,
       "Action": "WAIT"
     },
     {
       "Rank": 288,
-      "Stock": "CALX",
-      "Live": 33.529998779296875,
-      "Support": 36.94279991149902,
-      "Support R/R": "5R+",
-      "Setup": 12,
-      "Trade Quality": 57.5,
-      "Trigger": 40.880001068115234,
-      "% From Trigger": -17.979457183896862,
-      "Breakout R/R": 1.0624838744954737,
-      "Action": "WAIT"
-    },
-    {
-      "Rank": 289,
       "Stock": "CMCSA",
       "Live": 21.600000381469727,
       "Support": 24.776399993896483,
@@ -3772,11 +3760,11 @@
       "Trade Quality": 57.5,
       "Trigger": 27.350000381469727,
       "% From Trigger": -21.02376570311042,
-      "Breakout R/R": 1.1067444205808998,
+      "Breakout R/R": 1.1067148673527067,
       "Action": "WAIT"
     },
     {
-      "Rank": 290,
+      "Rank": 289,
       "Stock": "PEG",
       "Live": 67.68000030517578,
       "Support": 73.8031999206543,
@@ -3789,7 +3777,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 291,
+      "Rank": 290,
       "Stock": "TTWO",
       "Live": 202.77999877929688,
       "Support": 227.92499877929689,
@@ -3802,7 +3790,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 292,
+      "Rank": 291,
       "Stock": "BILI",
       "Live": 14.84000015258789,
       "Support": 16.71559997558594,
@@ -3815,7 +3803,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 293,
+      "Rank": 292,
       "Stock": "CARG",
       "Live": 31.15999984741211,
       "Support": 35.01179996490478,
@@ -3824,11 +3812,11 @@
       "Trade Quality": 47.5,
       "Trigger": 41.220001220703125,
       "% From Trigger": -24.405630944615996,
-      "Breakout R/R": 0.8794268147129826,
+      "Breakout R/R": 0.8794026704836403,
       "Action": "WAIT"
     },
     {
-      "Rank": 294,
+      "Rank": 293,
       "Stock": "OC",
       "Live": 118.36000061035156,
       "Support": 139.06939987182616,
@@ -3837,11 +3825,11 @@
       "Trade Quality": 47.5,
       "Trigger": 159.8800048828125,
       "% From Trigger": -25.969478987002738,
-      "Breakout R/R": 0.9537488581717829,
+      "Breakout R/R": 0.9538000141643618,
       "Action": "WAIT"
     },
     {
-      "Rank": 295,
+      "Rank": 294,
       "Stock": "DUK",
       "Live": 114.20999908447266,
       "Support": 121.69279968261719,
@@ -3854,7 +3842,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 296,
+      "Rank": 295,
       "Stock": "EVRG",
       "Live": 78.7300033569336,
       "Support": 82.10499969482422,
@@ -3863,11 +3851,11 @@
       "Trade Quality": 40.0,
       "Trigger": 87.66000366210938,
       "% From Trigger": -10.187086393011102,
-      "Breakout R/R": 0.9878310031217642,
+      "Breakout R/R": 0.9877401801892419,
       "Action": "WAIT"
     },
     {
-      "Rank": 297,
+      "Rank": 296,
       "Stock": "GOOG",
       "Live": 337.32000732421875,
       "Support": 341.5830010986328,
@@ -3876,11 +3864,11 @@
       "Trade Quality": 40.0,
       "Trigger": 381.80999755859375,
       "% From Trigger": -11.652390068059294,
-      "Breakout R/R": 0.7912949999884732,
+      "Breakout R/R": 0.7912916550736483,
       "Action": "WAIT"
     },
     {
-      "Rank": 298,
+      "Rank": 297,
       "Stock": "GOOGL",
       "Live": 340.9200134277344,
       "Support": 343.9885986328125,
@@ -3893,7 +3881,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 299,
+      "Rank": 298,
       "Stock": "GEN",
       "Live": 20.850000381469727,
       "Support": 28.204800033569335,
@@ -3902,11 +3890,11 @@
       "Trade Quality": 81.0,
       "Trigger": 31.649999618530273,
       "% From Trigger": -34.123220749542824,
-      "Breakout R/R": 1.4953751673555487,
+      "Breakout R/R": 1.4953875806838355,
       "Action": "WAIT"
     },
     {
-      "Rank": 300,
+      "Rank": 299,
       "Stock": "AFRM",
       "Live": 69.30000305175781,
       "Support": 73.4925,
@@ -3919,7 +3907,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 301,
+      "Rank": 300,
       "Stock": "VIV",
       "Live": 11.380000114440918,
       "Support": 12.044999980926514,
@@ -3932,7 +3920,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 302,
+      "Rank": 301,
       "Stock": "TTAN",
       "Live": 63.52000045776367,
       "Support": 53.0,
@@ -3941,24 +3929,24 @@
       "Trade Quality": 61.0,
       "Trigger": 102.9520034790039,
       "% From Trigger": -38.30134595611053,
-      "Breakout R/R": 0.49134698789003667,
+      "Breakout R/R": 0.49134697077022177,
       "Action": "WAIT"
     },
     {
-      "Rank": 303,
+      "Rank": 302,
       "Stock": "TTD",
       "Live": 12.050000190734863,
-      "Support": 11.854999542236328,
+      "Support": 11.850000381469727,
       "Support R/R": "5R+",
       "Setup": 10,
       "Trade Quality": 61.0,
       "Trigger": 19.549999237060547,
       "% From Trigger": -38.36316797449324,
-      "Breakout R/R": 0.5539802907069039,
+      "Breakout R/R": 0.5539395587185865,
       "Action": "WAIT"
     },
     {
-      "Rank": 304,
+      "Rank": 303,
       "Stock": "OTIS",
       "Live": 65.62999725341797,
       "Support": 70.81739974975586,
@@ -3971,7 +3959,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 305,
+      "Rank": 304,
       "Stock": "XEL",
       "Live": 70.69000244140625,
       "Support": 76.35140045166015,
@@ -3984,7 +3972,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 306,
+      "Rank": 305,
       "Stock": "CSCO",
       "Live": 106.94000244140625,
       "Support": 112.26759979248047,
@@ -3997,7 +3985,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 307,
+      "Rank": 306,
       "Stock": "NI",
       "Live": 39.31999969482422,
       "Support": 42.09919990539551,
@@ -4006,11 +3994,11 @@
       "Trade Quality": 40.0,
       "Trigger": 47.06999969482422,
       "% From Trigger": -16.46483970734375,
-      "Breakout R/R": 0.8974311240120928,
+      "Breakout R/R": 0.8973210135776154,
       "Action": "WAIT"
     },
     {
-      "Rank": 308,
+      "Rank": 307,
       "Stock": "TMUS",
       "Live": 162.97999572753906,
       "Support": 177.64860046386718,
@@ -4023,7 +4011,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 309,
+      "Rank": 308,
       "Stock": "SRAD",
       "Live": 11.5600004196167,
       "Support": 13.198399925231934,
@@ -4036,7 +4024,7 @@
       "Action": "WAIT"
     },
     {
-      "Rank": 310,
+      "Rank": 309,
       "Stock": "CHKP",
       "Live": 126.93000030517578,
       "Support": 134.6060001373291,
@@ -4045,11 +4033,11 @@
       "Trade Quality": 50.0,
       "Trigger": 141.9600067138672,
       "% From Trigger": -10.58749344735218,
-      "Breakout R/R": 1.1500576758101688,
+      "Breakout R/R": 1.1500505729061663,
       "Action": "WAIT"
     },
     {
-      "Rank": 311,
+      "Rank": 310,
       "Stock": "XYZ",
       "Live": 74.05000305175781,
       "Support": 79.91179916381836,
@@ -4059,6 +4047,19 @@
       "Trigger": 86.91999816894531,
       "% From Trigger": -14.806713516229319,
       "Breakout R/R": 0.9312503491100429,
+      "Action": "WAIT"
+    },
+    {
+      "Rank": 311,
+      "Stock": "BCE",
+      "Live": 20.139999389648438,
+      "Support": 22.605399894714356,
+      "Support R/R": "5R+",
+      "Setup": 5,
+      "Trade Quality": 67.5,
+      "Trigger": 23.940000534057617,
+      "% From Trigger": -15.873020299240203,
+      "Breakout R/R": 1.3031612450398335,
       "Action": "WAIT"
     },
     {
@@ -4089,19 +4090,6 @@
     },
     {
       "Rank": 314,
-      "Stock": "BCE",
-      "Live": 20.139999389648438,
-      "Support": 22.605399894714356,
-      "Support R/R": "5R+",
-      "Setup": 2,
-      "Trade Quality": 67.5,
-      "Trigger": 23.940000534057617,
-      "% From Trigger": -15.873020299240203,
-      "Breakout R/R": 1.3047957519032294,
-      "Action": "WAIT"
-    },
-    {
-      "Rank": 315,
       "Stock": "RCI",
       "Live": 30.8700008392334,
       "Support": 35.07339992523193,
@@ -4110,11 +4098,11 @@
       "Trade Quality": 50.0,
       "Trigger": 38.09000015258789,
       "% From Trigger": -18.95510444849382,
-      "Breakout R/R": 1.1116325251104702,
+      "Breakout R/R": 1.110893593102575,
       "Action": "WAIT"
     },
     {
-      "Rank": 316,
+      "Rank": 315,
       "Stock": "KD",
       "Live": 11.289999961853027,
       "Support": 12.885999984741211,
@@ -4151,20 +4139,20 @@
       "Trade Quality": 78.0,
       "Trigger": 234.75999450683594,
       "% From Trigger": -3.2160453099469244,
-      "Breakout R/R": 1.6615597829785411,
+      "Breakout R/R": 1.661570810493816,
       "Action": "WAIT FOR SUPPORT"
     },
     {
       "Rank": 11,
       "Stock": "DSGX",
       "Live": 79.46499633789062,
-      "Support": 78.31424942016602,
+      "Support": 78.31449966430664,
       "Support R/R": "5R+",
       "Setup": 85,
       "Trade Quality": 85.5,
       "Trigger": 82.6500015258789,
       "% From Trigger": -3.853605721944253,
-      "Breakout R/R": 1.6659188637377658,
+      "Breakout R/R": 1.6660006697379535,
       "Action": "WAIT FOR SUPPORT"
     },
     {
@@ -4229,7 +4217,7 @@
       "Trade Quality": 58.0,
       "Trigger": 221.97999572753906,
       "% From Trigger": -4.230110627253925,
-      "Breakout R/R": 1.0616497013033712,
+      "Breakout R/R": 1.06164336736901,
       "Action": "WAIT FOR SUPPORT"
     },
     {
@@ -4255,11 +4243,11 @@
       "Trade Quality": 83.5,
       "Trigger": 126.73999786376953,
       "% From Trigger": -8.300455121021976,
-      "Breakout R/R": 1.7515867738282893,
+      "Breakout R/R": 1.7515865214426456,
       "Action": "BUY SUPPORT"
     },
     {
-      "Rank": 45,
+      "Rank": 46,
       "Stock": "QLYS",
       "Live": 178.35000610351562,
       "Support": 174.86250076293945,
@@ -4272,7 +4260,7 @@
       "Action": "WAIT FOR SUPPORT"
     },
     {
-      "Rank": 46,
+      "Rank": 47,
       "Stock": "ASX",
       "Live": 45.310001373291016,
       "Support": 40.66550064086914,
@@ -4281,11 +4269,11 @@
       "Trade Quality": 82.0,
       "Trigger": 45.2400016784668,
       "% From Trigger": 0.15472964683274082,
-      "Breakout R/R": 1.456345994060578,
+      "Breakout R/R": 1.4573160508780723,
       "Action": "BUY BREAKOUT"
     },
     {
-      "Rank": 47,
+      "Rank": 48,
       "Stock": "ESTC",
       "Live": 88.80000305175781,
       "Support": 88.4680004119873,
@@ -4311,7 +4299,20 @@
       "Action": "BUY SUPPORT"
     },
     {
-      "Rank": 63,
+      "Rank": 55,
+      "Stock": "SLAB",
+      "Live": 221.1699981689453,
+      "Support": 220.40050048828124,
+      "Support R/R": "5R+",
+      "Setup": 71,
+      "Trade Quality": 74.0,
+      "Trigger": 222.49000549316406,
+      "% From Trigger": -0.5932883687484569,
+      "Breakout R/R": 1.3624364301864065,
+      "Action": "BUY SUPPORT"
+    },
+    {
+      "Rank": 64,
       "Stock": "GSAT",
       "Live": 82.58999633789062,
       "Support": 82.24549942016601,
@@ -4321,19 +4322,6 @@
       "Trigger": 84.8499984741211,
       "% From Trigger": -2.663526431199359,
       "Breakout R/R": 1.173356102375446,
-      "Action": "BUY SUPPORT"
-    },
-    {
-      "Rank": 77,
-      "Stock": "SLAB",
-      "Live": 221.1699981689453,
-      "Support": 220.40050048828124,
-      "Support R/R": "5R+",
-      "Setup": 65,
-      "Trade Quality": 74.0,
-      "Trigger": 222.49000549316406,
-      "% From Trigger": -0.5932883687484569,
-      "Breakout R/R": 1.3624364301864065,
       "Action": "BUY SUPPORT"
     },
     {
