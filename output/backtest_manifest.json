@@ -1,0 +1,15 @@
+{
+  "finished_utc": "2026-09-30T13:28:29.993959+00:00",
+  "universe_size": 318,
+  "start": "2023-01-01",
+  "hold_days": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "cost_bps_each_side": 10.0,
+  "trades": 20689,
+  "symbols_with_errors": {},
+  "lookahead_control": "signals use data through close t; entries occur at next session open t+1"
+}
