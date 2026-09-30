@@ -91,7 +91,10 @@ def vcp_proxy(df,current):
     return float(np.clip((.25 if r30<r60 else 0)+(.25 if r15<r30 else 0)+.25*np.clip(contraction,0,1)+.25*pos,0,1))
 
 def feature_row(symbol,df,qqq):
-    if len(df)<65:raise RuntimeError(f"{symbol}: only {len(df)} daily rows")
+    # Newer listings may have less than 65 sessions. Keep them in the full-universe
+    # evaluation as long as there is enough history for meaningful support/setup math.
+    # Long-history features such as RS63 naturally remain NaN until enough bars exist.
+    if len(df)<30:raise RuntimeError(f"{symbol}: only {len(df)} daily rows; need at least 30")
     cur=float(df.close.iloc[-1]); ma20=float(df.close.tail(20).mean()); ma50=float(df.close.tail(50).mean()); trend=(6 if cur>ma20 else 0)+(7 if cur>ma50 else 0)+(5 if ma20>ma50 else 0)+(4 if lin_slope(df.close.tail(20))>0 else 0)+(3 if lin_slope(df.close.tail(50))>0 else 0)
     trigger=float(df.high.iloc[-51:-1].max()); p=(cur/trigger-1)*100; vcp=vcp_proxy(df,cur); avg10=float(df.volume.tail(10).mean()); prev40=float(df.volume.iloc[-50:-10].mean()); dry=avg10/prev40 if prev40>0 else np.nan; avg20=float(df.volume.iloc[-21:-1].mean()); rvol=float(df.volume.iloc[-1]/avg20) if avg20>0 else np.nan; rs=rs63(df,qqq); atr=atr14(df)
     low10=float(df.low.tail(10).min()); valid=[x for x in [low10,ma20,ma50] if x<trigger and x>=.8*trigger and trigger-x>=.75*atr]; support=max(valid) if valid else low10; stop=support-.25*atr; d60=df.tail(60); depth=float(d60.high.max()-d60.low.min()); target=max(trigger+1.25*atr,trigger+.5*depth); stretch=max(trigger+3*atr,trigger+depth)
@@ -136,6 +139,9 @@ def main():
         time.sleep(REQUEST_DELAY)
     detailed=pd.DataFrame(results)
     if detailed.empty:raise RuntimeError("No detailed results produced")
+    if len(detailed) != len(universe):
+        missing=sorted(set(universe)-set(detailed.Stock))
+        raise RuntimeError(f"Full-universe validation failed: evaluated {len(detailed)}/{len(universe)}; missing={missing}; errors={errors}")
     detailed=detailed.sort_values(["Setup","Trade Quality"],ascending=[False,False]).reset_index(drop=True); detailed.insert(0,"Rank",np.arange(1,len(detailed)+1))
     # Live/intraday evaluation also runs for every historically evaluable name, not just the leaderboard.
     lives={}
